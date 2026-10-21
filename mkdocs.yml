@@ -1,0 +1,24 @@
+site_name: DuckDB for Mere Mortals
+site_description: Plain-language analytical SQL over files you already have. Querying CSV, JSON, and Parquet in place with DuckDB, schema guesses and their traps, joins across files, aggregates and window functions, writing results out, and the honest line between an embedded engine and a database server, practised on specimen data with known answers.
+site_url: https://paulsullivan33-dev.github.io/duckdb-for-mere-mortals/
+
+# Guides live at the repo root (nice for GitHub browsing).
+# The deploy workflow copies them into docs/ before building.
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - What DuckDB Is: what-duckdb-is.md
+  - Querying Files in Place: querying-files-in-place.md
+  - When It Guesses Wrong: when-it-guesses-wrong.md
+  - Joins Across Files: joins-across-files.md
+  - Aggregates and Windows: aggregates-and-windows.md
+  - Writing Results Out: writing-results-out.md
+  - Databases That Persist: databases-that-persist.md
+  - The CLI Around the SQL: the-cli-around-the-sql.md
+  - Recipes: recipes.md
+  - The Neighbours: the-neighbours.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
+  - Writing Criteria: criteria.md

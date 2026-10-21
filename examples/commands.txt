@@ -1,0 +1,78 @@
+DuckDB commands — the everyday set
+from "DuckDB for Mere Mortals"
+====================================================================
+
+Every output quoted in the guide was captured
+from DuckDB 1.4.1 (Andium), against the
+specimen files built by build-lab.py (see
+lab-notes.txt). Work from the examples/
+folder, so the specimens are at data/...
+
+
+FILES IN PLACE (chapter 2)
+--------------------
+    SELECT * FROM 'data/bookshop_sales.csv'
+                                a CSV, queried where it
+                                sits — no import step
+    FROM 'data/bookshop_sales.csv' SELECT ...
+                                the same, FROM first
+    read_csv('file.csv')        the explicit reader;
+    read_json('file.json')      read_parquet likewise
+    DESCRIBE SELECT * FROM 'f'  the types DuckDB chose
+    SUMMARIZE 'f'               min, max, average, count
+                                per column
+
+
+PINNING TYPES (chapter 3)
+--------------------
+    read_csv('f', columns={'a': 'BIGINT', ...})
+                                the map is the WHOLE
+                                schema: name every column
+    CAST(x AS DATE)             converts, or errors
+    TRY_CAST(x AS INTEGER)      converts, or gives NULL
+    try_strptime(x, '%d/%m/%Y') parses a date in the
+                                format YOU say; coalesce
+                                several for mixed files
+
+
+JOINS AND GROUPS (chapters 4-5)
+--------------------
+    FROM 'a.csv' s JOIN 'b.json' c
+      ON s.book_id = c.book_id  two files, one question
+    GROUP BY genre              collapse rows into groups
+    sum(qty * unit_price)       the aggregate; round()
+                                hides float dust, DECIMAL
+                                prevents it (chapter 3)
+    rank() OVER (PARTITION BY genre
+      ORDER BY takings DESC)    a window: every row kept,
+                                ranked inside its group
+
+
+WRITING OUT (chapter 6)
+--------------------
+    COPY (SELECT ...) TO 'out.csv' (HEADER)
+    COPY (SELECT ...) TO 'out.json' (FORMAT JSON, ARRAY true)
+    COPY (SELECT ...) TO 'out.parquet' (FORMAT PARQUET)
+                                a snapshot; rerun to refresh
+
+
+DATABASES (chapter 7)
+--------------------
+    duckdb shop.duckdb          a database in one file;
+                                bare `duckdb` is :memory:
+    CREATE TABLE sales AS FROM 'data/bookshop_sales.csv';
+    SHOW TABLES;                what persisted
+    duckdb -readonly shop.duckdb
+                                look without taking the
+                                one writer's lock
+
+
+THE SHELL (chapter 8)
+--------------------
+    .help                       every dot-command
+    .mode list / .mode json     how results are drawn
+    .headers on|off             the column-name row
+    .schema sales               the CREATE TABLE, back
+    .timer on                   a Run Time line per query
+    .output file / .output stdout
+                                where results go

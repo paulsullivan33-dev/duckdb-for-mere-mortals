@@ -1,0 +1,9 @@
+┌──────────────┬─────────────┬─────────┬─────────┬─────────┬─────────┐
+│ column_name  │ column_type │  null   │   key   │ default │  extra  │
+│   varchar    │   varchar   │ varchar │ varchar │ varchar │ varchar │
+├──────────────┼─────────────┼─────────┼─────────┼─────────┼─────────┤
+│ read_at      │ TIMESTAMP   │ YES     │ NULL    │ NULL    │ NULL    │
+│ temp_c       │ DOUBLE      │ YES     │ NULL    │ NULL    │ NULL    │
+│ humidity_pct │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ rain_mm      │ DOUBLE      │ YES     │ NULL    │ NULL    │ NULL    │
+└──────────────┴─────────────┴─────────┴─────────┴─────────┴─────────┘

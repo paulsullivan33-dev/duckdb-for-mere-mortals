@@ -1,0 +1,11 @@
+┌─────────┬────────────────────────┬─────────┬───────┐
+│  genre  │         title          │ takings │  rnk  │
+│ varchar │        varchar         │ double  │ int64 │
+├─────────┼────────────────────────┼─────────┼───────┤
+│ Cookery │ The Winter Apiary      │  301.94 │     1 │
+│ Craft   │ Knots and Their Uses   │    98.9 │     1 │
+│ Fiction │ The Glass Observatory  │   279.8 │     1 │
+│ History │ Empires of Salt        │  516.78 │     1 │
+│ Science │ Volcanoes of the North │   630.0 │     1 │
+│ Travel  │ The Salt Road Atlas    │  423.24 │     1 │
+└─────────┴────────────────────────┴─────────┴───────┘

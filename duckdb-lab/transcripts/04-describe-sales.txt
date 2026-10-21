@@ -1,0 +1,12 @@
+┌─────────────┬─────────────┬─────────┬─────────┬─────────┬─────────┐
+│ column_name │ column_type │  null   │   key   │ default │  extra  │
+│   varchar   │   varchar   │ varchar │ varchar │ varchar │ varchar │
+├─────────────┼─────────────┼─────────┼─────────┼─────────┼─────────┤
+│ sale_id     │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ sold_on     │ DATE        │ YES     │ NULL    │ NULL    │ NULL    │
+│ book_id     │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ shelf_code  │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ qty         │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ unit_price  │ DOUBLE      │ YES     │ NULL    │ NULL    │ NULL    │
+│ till_no     │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+└─────────────┴─────────────┴─────────┴─────────┴─────────┴─────────┘

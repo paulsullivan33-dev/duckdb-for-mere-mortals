@@ -1,0 +1,8 @@
+┌─────────────┬─────────────┬─────────┬─────────┬─────────┬─────────┐
+│ column_name │ column_type │  null   │   key   │ default │  extra  │
+│   varchar   │   varchar   │ varchar │ varchar │ varchar │ varchar │
+├─────────────┼─────────────┼─────────┼─────────┼─────────┼─────────┤
+│ item        │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ arrived_on  │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ stock       │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+└─────────────┴─────────────┴─────────┴─────────┴─────────┴─────────┘

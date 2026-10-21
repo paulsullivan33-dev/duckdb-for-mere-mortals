@@ -1,0 +1,16 @@
+[
+	{"genre":"Fiction","copies":50},
+	{"genre":"Travel","copies":60},
+	{"genre":"Craft","copies":10},
+	{"genre":"History","copies":40},
+	{"genre":"Cookery","copies":30},
+	{"genre":"Science","copies":50}
+]
+[
+	{"genre":"Craft","copies":10},
+	{"genre":"History","copies":40},
+	{"genre":"Cookery","copies":30},
+	{"genre":"Science","copies":50},
+	{"genre":"Fiction","copies":50},
+	{"genre":"Travel","copies":60}
+]

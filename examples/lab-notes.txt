@@ -1,0 +1,69 @@
+The lab — what the specimen data is
+====================================================================
+
+The lab is a folder of data files, built by
+the Python script next to this note:
+
+    python3 build-lab.py data
+
+Every name in it is invented and every count
+is deliberate. Rebuild it any time — the
+script deletes and recreates its one data
+directory — and the rebuilt files are
+byte-identical to the ones the guide's
+captures were made against. One warning:
+never point the script at a directory you
+care about. It owns the directory it builds.
+
+data/ — five files, 8,929 data rows in all
+
+    bookshop_sales.csv      120 rows. One
+        invented bookshop's sales, 2 January
+        to 19 March 2024: sale_id, sold_on,
+        book_id, shelf_code, qty, unit_price,
+        till_no. The shelf_code values are
+        written with leading zeros (0007,
+        0029, 0042) on purpose — chapter 3
+        is about what type guesses do to
+        codes like those. A few sales carry
+        a 10% discount, so unit_price is not
+        always the catalogue price.
+    bookshop_catalogue.json 12 rows as a
+        JSON array: book_id, title, author,
+        genre, list_price, shelf_code. The
+        join partner for the sales file in
+        chapter 4.
+    weather_readings.csv    8,784 rows: one
+        invented weather station's hourly
+        readings for the whole of leap year
+        2024 — read_at, temp_c, humidity_pct,
+        rain_mm. The values are a seeded
+        random walk: plausible, smooth, and
+        nobody's real weather. Big enough
+        for aggregates, windows, and the
+        Parquet comparison in chapter 6 to
+        have something to bite on.
+    mixed_dates.csv         8 rows of stock
+        arrivals whose arrived_on column
+        arrives in four different formats
+        (2024-03-01, 01/03/2024, 2024/03/05,
+        "March 6, 2024", 07-03-2024), with
+        a stock column that is numbers
+        except for one row where it is the
+        word "twelve". Chapter 3 reads the
+        wreckage and then rescues it.
+    broken.csv              5 rows of a
+        sales extract, two of them damaged:
+        row 2 is short a field, and row 4
+        opens a quote it never closes.
+        Chapters 3 and 11 watch the CSV
+        reader cope, in three different
+        ways, none of them free.
+
+Specimen discipline: every shop, book,
+person, and weather station in these files
+is invented. The dates are a real calendar
+(2024 was a leap year, which is why the
+weather file has 8,784 = 366 x 24 rows and
+not 8,760), and the arithmetic the chapters
+quote was run against these exact bytes.

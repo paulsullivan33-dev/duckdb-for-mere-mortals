@@ -1,0 +1,4 @@
+first connection: holds lab.duckdb open
+second connection, same file:
+Error: unable to open database "lab.duckdb": IO Error: Could not set lock on file "lab.duckdb": Conflicting lock is held in /home/hatch/workspace/duckdb-build/duckdb (PID 11952). See also https://duckdb.org/docs/stable/connect/concurrency
+[exit 1]

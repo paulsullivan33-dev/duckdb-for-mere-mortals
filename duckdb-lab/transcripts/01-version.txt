@@ -1,0 +1,2 @@
+$ duckdb --version
+v1.4.1 (Andium) b390a7c376

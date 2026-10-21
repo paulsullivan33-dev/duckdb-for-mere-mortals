@@ -1,0 +1,11 @@
+┌─────────────┬─────────────┬─────────┬─────────┬─────────┬─────────┐
+│ column_name │ column_type │  null   │   key   │ default │  extra  │
+│   varchar   │   varchar   │ varchar │ varchar │ varchar │ varchar │
+├─────────────┼─────────────┼─────────┼─────────┼─────────┼─────────┤
+│ book_id     │ BIGINT      │ YES     │ NULL    │ NULL    │ NULL    │
+│ title       │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ author      │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ genre       │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+│ list_price  │ DOUBLE      │ YES     │ NULL    │ NULL    │ NULL    │
+│ shelf_code  │ VARCHAR     │ YES     │ NULL    │ NULL    │ NULL    │
+└─────────────┴─────────────┴─────────┴─────────┴─────────┴─────────┘

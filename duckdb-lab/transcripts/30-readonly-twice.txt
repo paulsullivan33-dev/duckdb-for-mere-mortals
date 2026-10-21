@@ -1,0 +1,14 @@
+two read-only connections at the same moment:
+┌───────┐
+│   b   │
+│ int64 │
+├───────┤
+│   120 │
+└───────┘
+┌───────┐
+│   a   │
+│ int64 │
+├───────┤
+│   120 │
+└───────┘
+[both exit ok]

@@ -1,0 +1,8 @@
+$ python3 python_demo.py
+Travel: 60
+Fiction: 50
+Science: 50
+History: 40
+Cookery: 30
+Craft: 10
+rain in 2024, mm: 5403.4

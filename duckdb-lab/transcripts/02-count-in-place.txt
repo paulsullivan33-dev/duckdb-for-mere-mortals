@@ -1,0 +1,7 @@
+$ duckdb -c "SELECT count(*) AS sales_rows FROM 'data/bookshop_sales.csv';"
+┌────────────┐
+│ sales_rows │
+│   int64    │
+├────────────┤
+│        120 │
+└────────────┘

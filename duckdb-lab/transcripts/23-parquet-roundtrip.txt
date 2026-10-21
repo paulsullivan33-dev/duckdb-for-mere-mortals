@@ -1,0 +1,9 @@
+sizes, bytes:
+275981 data/weather_readings.csv
+83073 exports/weather.parquet
+┌─────────────────┐
+│ rows_in_parquet │
+│      int64      │
+├─────────────────┤
+│            8784 │
+└─────────────────┘

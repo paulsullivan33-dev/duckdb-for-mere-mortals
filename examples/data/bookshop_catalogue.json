@@ -1,0 +1,98 @@
+[
+  {
+    "book_id": 1,
+    "title": "The Clockwork Orchard",
+    "author": "Imogen Hart",
+    "genre": "Fiction",
+    "list_price": 12.99,
+    "shelf_code": "0007"
+  },
+  {
+    "book_id": 2,
+    "title": "A Field Guide to Clouds",
+    "author": "Tomas Reyes",
+    "genre": "Science",
+    "list_price": 18.5,
+    "shelf_code": "0013"
+  },
+  {
+    "book_id": 3,
+    "title": "The Salt Road Atlas",
+    "author": "Priya Nair",
+    "genre": "Travel",
+    "list_price": 14.25,
+    "shelf_code": "0021"
+  },
+  {
+    "book_id": 4,
+    "title": "Knots and Their Uses",
+    "author": "Walter Byrne",
+    "genre": "Craft",
+    "list_price": 9.99,
+    "shelf_code": "0029"
+  },
+  {
+    "book_id": 5,
+    "title": "The Night Ferry",
+    "author": "Imogen Hart",
+    "genre": "Fiction",
+    "list_price": 11.5,
+    "shelf_code": "0034"
+  },
+  {
+    "book_id": 6,
+    "title": "Volcanoes of the North",
+    "author": "Tomas Reyes",
+    "genre": "Science",
+    "list_price": 21.0,
+    "shelf_code": "0042"
+  },
+  {
+    "book_id": 7,
+    "title": "Bread for Beginners",
+    "author": "Mabel Okafor",
+    "genre": "Cookery",
+    "list_price": 16.75,
+    "shelf_code": "0058"
+  },
+  {
+    "book_id": 8,
+    "title": "The Glass Observatory",
+    "author": "Elias Venn",
+    "genre": "Fiction",
+    "list_price": 13.99,
+    "shelf_code": "0063"
+  },
+  {
+    "book_id": 9,
+    "title": "Walking the Old Roads",
+    "author": "Priya Nair",
+    "genre": "Travel",
+    "list_price": 12.5,
+    "shelf_code": "0071"
+  },
+  {
+    "book_id": 10,
+    "title": "A History of Maps",
+    "author": "Clara Whitlock",
+    "genre": "History",
+    "list_price": 19.95,
+    "shelf_code": "0088"
+  },
+  {
+    "book_id": 11,
+    "title": "The Winter Apiary",
+    "author": "Mabel Okafor",
+    "genre": "Cookery",
+    "list_price": 15.25,
+    "shelf_code": "0094"
+  },
+  {
+    "book_id": 12,
+    "title": "Empires of Salt",
+    "author": "Clara Whitlock",
+    "genre": "History",
+    "list_price": 17.4,
+    "shelf_code": "0107"
+  }
+]

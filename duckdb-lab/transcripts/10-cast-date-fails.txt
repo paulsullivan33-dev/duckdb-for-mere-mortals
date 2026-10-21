@@ -1,0 +1,4 @@
+Conversion Error: invalid date field format: "01/03/2024", expected format is (YYYY-MM-DD) when casting from source column arrived_on
+
+LINE 1: SELECT CAST(arrived_on AS DATE) AS d FROM 'data/mixed_dates.csv';
+               ^

@@ -1,0 +1,10 @@
+┌─────────────────────────┬────────┬─────────┐
+│          title          │ copies │ takings │
+│         varchar         │ int128 │ double  │
+├─────────────────────────┼────────┼─────────┤
+│ Volcanoes of the North  │     30 │   630.0 │
+│ Empires of Salt         │     30 │  516.78 │
+│ The Salt Road Atlas     │     30 │  423.24 │
+│ Walking the Old Roads   │     30 │  371.25 │
+│ A Field Guide to Clouds │     20 │   366.3 │
+└─────────────────────────┴────────┴─────────┘

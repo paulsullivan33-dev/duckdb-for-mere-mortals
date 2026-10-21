@@ -1,0 +1,31 @@
+Conversion Error: CSV Error on Line: 2
+Original Line: 1,2024-01-02,4,0029,1,8.99,1
+Error when converting column "shelf_code". Could not convert string "1,2024-01-02,4,0029,1,8.99,1" to 'BIGINT'
+
+Column shelf_code is being converted as type BIGINT
+This type was either manually set or derived from an existing table. Select a different type to correctly parse this column.
+* Check whether the null string value is set correctly (e.g., nullstr = 'N/A')
+
+  file = data/bookshop_sales.csv
+  delimiter = | (Auto-Detected)
+  quote = (empty) (Auto-Detected)
+  escape = (empty) (Auto-Detected)
+  new_line = \n (Auto-Detected)
+  header = true (Auto-Detected)
+  skip_rows = 0 (Auto-Detected)
+  comment = (empty) (Auto-Detected)
+  strict_mode = true (Auto-Detected)
+  date_format =  (Auto-Detected)
+  timestamp_format =  (Auto-Detected)
+  null_padding = 0
+  sample_size = 20480
+  ignore_errors = false
+  all_varchar = 0
+Header mismatch at position: 0
+Expected name: "shelf_code", Actual name: "sale_id,sold_on,book_id,shelf_code,qty,unit_price,till_no".
+The Column names set by the user do not match the ones found by the sniffer. 
+Column at position: 0, Set name: shelf_code, Sniffed Name: sale_id,sold_on,book_id,shelf_code,qty,unit_price,till_no
+The Column types set by the user do not match the ones found by the sniffer. 
+Column at position: 0 Set type: BIGINT Sniffed type: VARCHAR
+
+

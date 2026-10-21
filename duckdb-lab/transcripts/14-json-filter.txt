@@ -1,0 +1,7 @@
+┌─────────────────────────┬─────────────┬─────────┐
+│          title          │   author    │  genre  │
+│         varchar         │   varchar   │ varchar │
+├─────────────────────────┼─────────────┼─────────┤
+│ A Field Guide to Clouds │ Tomas Reyes │ Science │
+│ Volcanoes of the North  │ Tomas Reyes │ Science │
+└─────────────────────────┴─────────────┴─────────┘

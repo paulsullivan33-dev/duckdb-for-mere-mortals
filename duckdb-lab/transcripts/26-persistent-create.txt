@@ -1,0 +1,8 @@
+┌─────────┐
+│  name   │
+│ varchar │
+├─────────┤
+│ sales   │
+│ shelf   │
+└─────────┘
+-rw-rw---- 1 root nogroup 536576 Oct 21 21:59 lab.duckdb

@@ -1,0 +1,5 @@
+Binder Error: Referenced column "titel" not found in FROM clause!
+Candidate bindings: "title", "shelf_code", "list_price"
+
+LINE 1: SELECT titel FROM 'data/bookshop_catalogue.json';
+               ^

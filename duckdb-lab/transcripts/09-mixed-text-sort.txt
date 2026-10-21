@@ -1,0 +1,13 @@
+┌──────────────┬───────────────┬─────────┐
+│     item     │  arrived_on   │  stock  │
+│   varchar    │    varchar    │ varchar │
+├──────────────┼───────────────┼─────────┤
+│ oak stool    │ 01/03/2024    │ 7       │
+│ glass jar    │ 07-03-2024    │ 15      │
+│ cedar box    │ 11/03/2024    │ 6       │
+│ brass lamp   │ 2024-03-01    │ 12      │
+│ iron skillet │ 2024-03-08    │ 2       │
+│ enamel mug   │ 2024-03-12    │ twelve  │
+│ tin kettle   │ 2024/03/05    │ 4       │
+│ wool blanket │ March 6, 2024 │ 9       │
+└──────────────┴───────────────┴─────────┘

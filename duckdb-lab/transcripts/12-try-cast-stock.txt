@@ -1,0 +1,13 @@
+┌──────────────┬───────────┐
+│     item     │ stock_num │
+│   varchar    │   int32   │
+├──────────────┼───────────┤
+│ brass lamp   │        12 │
+│ oak stool    │         7 │
+│ tin kettle   │         4 │
+│ wool blanket │         9 │
+│ glass jar    │        15 │
+│ iron skillet │         2 │
+│ cedar box    │         6 │
+│ enamel mug   │      NULL │
+└──────────────┴───────────┘

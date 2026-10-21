@@ -1,0 +1,2 @@
+sales
+CREATE TABLE sales(sale_id BIGINT, sold_on DATE, book_id BIGINT, shelf_code VARCHAR, qty BIGINT, unit_price DOUBLE, till_no BIGINT);
