@@ -143,3 +143,19 @@ fixture directories have no marker: use a
 fresh directory name and inspect the old one
 manually. Do not add a marker to an unrelated
 directory.
+
+---
+
+## Part of the series
+
+This guide is one of the [For Mere Mortals](https://paulsullivan33-dev.github.io/mere-mortals/) guides: plain-language guides to the tools programmers and makers use.
+
+Related guides:
+
+- [SQL for Mere Mortals](https://paulsullivan33-dev.github.io/sql-for-mere-mortals/)
+- [SQLite for Mere Mortals](https://paulsullivan33-dev.github.io/sqlite-for-mere-mortals/)
+- [jq for Mere Mortals](https://paulsullivan33-dev.github.io/jq-for-mere-mortals/)
+
+## License
+
+The writing in this guide is licensed under [CC BY 4.0](https://github.com/paulsullivan33-dev/duckdb-for-mere-mortals/blob/main/LICENSE). Code examples and lab scripts are licensed under the [MIT License](https://github.com/paulsullivan33-dev/duckdb-for-mere-mortals/blob/main/LICENSE-CODE).

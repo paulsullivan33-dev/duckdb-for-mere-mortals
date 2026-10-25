@@ -1,6 +1,7 @@
 site_name: DuckDB for Mere Mortals
 site_description: Plain-language analytical SQL over files you already have. Querying CSV, JSON, and Parquet in place with DuckDB, schema guesses and their traps, joins across files, aggregates and window functions, writing results out, and the honest line between an embedded engine and a database server, practised on specimen data with known answers.
 site_url: https://paulsullivan33-dev.github.io/duckdb-for-mere-mortals/
+copyright: 'Part of <a href="https://paulsullivan33-dev.github.io/mere-mortals/">For Mere Mortals</a> · Text <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, code MIT'
 
 # Guides live at the repo root (nice for GitHub browsing).
 # The deploy workflow copies them into docs/ before building.
